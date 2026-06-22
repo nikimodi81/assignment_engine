@@ -1,5 +1,0 @@
-User ID,Full Name,Role Type,Support Level,Technologies,Supported Regions,Supported Business Processes (BP),Primary Skills,Indicative Issue Descriptions (For AI Semantic Matching)
-nikhil.modi,Nikhil Modi,Tech Specialist,L1,"ETL, MFT",AMER,"Order-to-Cash, Billing",Active Directory,SAP data load failure; ETL workflow failed in Informatica; MFT file transfer error for billing
-anup.roy,Anup Roy,Flow Supervisor,L2,Tibco,"EMEA, APAC","Procure-to-Pay, Supply Chain","Tibco EMS, VPN, Firewall","Tibco EMS queue full; Purchase order integration error; EMEA supplier portal is down; Supply chain flow stuck in Tibco BusinessWorks
-kunal.nayak,Kunal Nayak,Flow Supervisor,L3,All,All,All,"AWS, Cloud integration, High Severity","Global flow supervisor; Major supply chain integration failure; Production server down; Multi-region routing error
-vipul.kabadi,Vipul Kabadi,Tech Specialist,L2,MFT,EMEA,"Order-to-Cash, Inventory","MFT Client, SFTP, SSH","MFT transfer failed for EMEA inventory data; SFTP connection timeout on file transfer; SSH key renewal for MFT user
