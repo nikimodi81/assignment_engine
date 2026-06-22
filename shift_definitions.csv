@@ -1,0 +1,5 @@
+Shift Code,Shift Name,Start UTC (HH:MM),End UTC (HH:MM),Description
+AM,Morning Shift,06:00,14:00,Morning Shift coverage (e.g. 06:00 to 14:00 UTC)
+PM,Afternoon Shift,14:00,22:00,Afternoon/Evening Shift coverage (e.g. 14:00 to 22:00 UTC)
+NS,Night Shift,22:00,06:00,Night Shift coverage (e.g. 22:00 to 06:00 UTC next day)
+OFF,Day Off,00:00,00:00,Rest days / weekends
