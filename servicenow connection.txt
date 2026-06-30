@@ -1,0 +1,27 @@
+Searched web: "ServiceNow Personal Developer Instance PDI free API access POC"
+
+Yes, you can get a fully functional, **100% free version of ServiceNow** specifically for learning, testing, and conducting Proof of Concepts (POCs). 
+
+This is called a **Personal Developer Instance (PDI)**, and it is provided through the official ServiceNow Developer Program.
+
+### Key Capabilities for your POC
+* **Full API Access:** Your PDI behaves exactly like a commercial instance. You can interact with it via its native **REST APIs** (e.g., Table API to read/write records) and **SOAP APIs**.
+* **Authentication Options:** You can use standard **Basic Authentication** (by creating a local integration user) or set up **OAuth 2.0** under *System OAuth > Application Registry*.
+* **In-Platform Automation:** You can build custom workflows using **Flow Designer**, **IntegrationHub** (some spokes require specific plugins), and JavaScript-based **Business Rules/Script Includes**.
+
+---
+
+### How to Get Your Free Instance
+
+1. **Sign Up:** Go to the [ServiceNow Developer Portal](https://developer.servicenow.com) and register for a free account.
+2. **Request an Instance:** 
+   * Once logged in, click **Request an Instance** on your dashboard.
+   * Choose the release version you want (e.g., Washington DC or Xanadu, whichever is current).
+3. **Receive Credentials:** ServiceNow will spin up a unique instance for you (e.g., `https://devXXXXX.service-now.com`) and provide the admin credentials.
+
+---
+
+### Important Rules to Remember
+* **Inactivity Reclaiming:** PDIs are free, but they will go to sleep (hibernate) if not used, and will be **reclaimed (wiped and deleted)** if you do not log in to the developer portal or access the instance for **10 days**. You can easily prevent this by logging into the Developer Portal periodically.
+* **Non-Production Only:** PDIs are hosted in a shared sandbox environment. Do not use them for production tasks or upload real, sensitive corporate data.
+* **Resource Limits:** Performance is throttled compared to paid instances, so avoid high-load performance testing.
